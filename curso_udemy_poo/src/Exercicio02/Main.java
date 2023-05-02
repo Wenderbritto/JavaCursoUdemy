@@ -12,7 +12,7 @@ public class Main {
 	public static void main(String[] args) {
 		
 		
-		Locale.setDefault(Locale.US);
+		Locale.setDefault(Locale.US) ;
 		
 		Scanner leitor = new Scanner(System.in);
 		
