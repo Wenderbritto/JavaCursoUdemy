@@ -13,6 +13,7 @@ public class Main {
 		
 		
 		Locale.setDefault(Locale.US);
+		
 		Scanner leitor = new Scanner(System.in);
 		
 		double R, A, pi = 3.14159;
