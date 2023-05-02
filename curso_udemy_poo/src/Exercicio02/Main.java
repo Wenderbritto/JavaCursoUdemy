@@ -21,7 +21,7 @@ public class Main {
 
 	    A = pi * R * R;
 
-	    System.out.printf("A= %.4f%n", A);
+	    System.out.printf("A = %.4f%n", A);
 
 		leitor.close();
 
