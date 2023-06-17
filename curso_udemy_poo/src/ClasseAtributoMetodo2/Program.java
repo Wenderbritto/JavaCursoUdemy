@@ -28,8 +28,24 @@ public class Program {
 		System.out.print("Quantity in stock: ");
 		product.quantity = leitor.nextInt();
 		
-		System.out.println(product);
-
+		System.out.println();
+		System.out.println("Product data: " + product);
+		
+		System.out.println();
+		System.out.println("Enter the number of product to be added in stock: ");
+		int quantity = leitor.nextInt();
+		product.addProducts(quantity);
+		
+		System.out.println();
+		System.out.println("Updated data: " + product);
+		
+		System.out.println();
+		System.out.println("Enter the number of product to be removed from stock: ");
+		quantity = leitor.nextInt();
+		product.removeProducts(quantity);
+		
+		System.out.println();
+		System.out.println("Updated data: " + product);
 	}
 
 }
