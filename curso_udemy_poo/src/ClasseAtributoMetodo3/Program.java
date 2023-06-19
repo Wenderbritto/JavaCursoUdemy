@@ -14,29 +14,38 @@ public class Program {
 		Locale.setDefault(Locale.US);
 		Scanner leitor = new Scanner(System.in);
 		
+		//Instanciando um objeto do tipo Funcionario.
 		Funcionario fun1 = new Funcionario();
 		
+		//Adicionando informacao no atributo do objeto.
 		System.out.println("Funcionario: ");
 		fun1.nome = leitor.nextLine();
 		
+		//Adicionando informacao no atributo do objeto.
 		System.out.println("Salario bruto: ");
 		fun1.salarioBruto = leitor.nextDouble();
 		
+		//Adicionando informacao no atributo do objeto.
 		System.out.println("Imposto: ");
 		fun1.imposto = leitor.nextDouble();
 		
 		System.out.println();
 		
+		//Imprime na tela as informacoes do contidas no objeto fun1.
 		System.out.println("Funcionario: "+fun1);
 		
 		System.out.println();
 		
+		//Atribuindo valor a uma variavel.
 		System.out.println("Porcentagem para incremento: ");
 		double porcent = leitor.nextDouble();
 		
+		//Passando um valor por parametro para o metodo.
 		fun1.aumentarSalario(porcent);
 		
 		System.out.println();
+		
+		//Imprimindo as informacoes atualizadas contidas no objeto fun1.
 		System.out.println("Atualizado: " +fun1);
 
 	}
