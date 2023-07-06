@@ -19,13 +19,18 @@ public class Main {
 		
 		if(init == "S") {
 			
+			System.out.println("Digite o saldo inicial: ");
+			double saldoIni = leitor.nextDouble();
 			
+			Conta c1 = new Conta(numConta, nome, saldoIni);
+		}
+		else {
+		Conta c1 = new Conta(numConta, nome);
 		}
 		
-		Conta c1 = new Conta(numConta, nome);
 		System.out.println();
 		
-		System.out.println("Dados da Conta: "+c1);
+		System.out.println("Dados da Conta: "+);
 
 	}
 
